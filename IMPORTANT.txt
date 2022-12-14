@@ -1,0 +1,9 @@
+* DO NOT install preprocessor, install tweet-preprocessor instead! 
+  Or you'll get an error: "AttributeError: module 'preprocessor' has no attribute 'clean'" 
+
+* fetchd tweet MUST include: 
+    - Date
+    - Tweet
+    - Like Count
+    - Reply Count
+    - Retweet Count
