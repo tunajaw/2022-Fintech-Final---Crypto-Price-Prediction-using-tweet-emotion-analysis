@@ -2,10 +2,17 @@
 
 Todo Week 1: 
 
-run `python twitter.py -f 2022-07-01 -t 2022-08-01` to fetch tweet data automatically, change period by yourself :)
+Run `python twitter.py -f 2022-07-01 -t 2022-08-01` to fetch tweet data automatically, change period by yourself :)
+
+The result data are located at `/tweet_data/`. 
 
 running time: ~ 5hrs
 
-Note: ** DO NOT install preprocessor, install tweet-preprocessor instead! **
 
-  Or you'll get an error: `"AttributeError: module 'preprocessor' has no attribute 'clean'`" **
+
+Note: **DO NOT install preprocessor, install tweet-preprocessor instead!**
+
+**Or you'll get an error: `"AttributeError: module 'preprocessor' has no attribute 'clean'"`**
+
+
+p.s. You can issue pull requests anytime!
