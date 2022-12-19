@@ -20,8 +20,8 @@ def scrape_one_day(since_to, limit, word):
                 break
             else:
                 tweets.append([tweet.date, tweet.content, tweet.likeCount, tweet.retweetCount, tweet.replyCount])
-            if(len(tweets) % 500 == 0):
-                print(len(tweets))
+            # if(len(tweets) % 500 == 0):
+            #     print(len(tweets))
                 
         df = pd.DataFrame(tweets, columns=['Date', 'Tweet', 'like', 'retweet', 'reply'])
         
